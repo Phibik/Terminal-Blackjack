@@ -1,5 +1,5 @@
 class Carta:
-    def __init__(self, v, p, t = "MOSTRAR"):
+    def __init__(self, v, p, t = "MOSTRADA"):
         self.simbolo = v
         self.tipo = t
         match v:
